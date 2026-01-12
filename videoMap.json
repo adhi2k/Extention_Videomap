@@ -3,5 +3,9 @@
   "Ingesting FHIR Data with the Healthcare API": "https://youtu.be/Gh3fJWLyRZs?si=MqYOv57G0ZTfjJ_c",
   "Implementing Page Navigation in a Flutter Application": "https://youtu.be/wn_a4bslwm0",
   "Introduction to Dart ": "https://youtu.be/EaHgml0ybb4",
-  "Troubleshooting Data Models in Looker": "https://youtu.be/HrcUZfTDnCg"
+  "Troubleshooting Data Models in Looker": "https://youtu.be/HrcUZfTDnCg",
+  "Employing Best Practices for Improving the Usability of LookML Projects":"https://youtu.be/KOnI5lSAxqw",
+  "Cloud Spanner - Loading Data and Performing Backups":"https://youtu.be/pctjfLl4AAY",
+  "Using Prometheus for Monitoring on Google Cloud: Qwik Start":"https://youtu.be/EqJ2DrmPr0Y",
+  "Migrate Existing Prometheus Monitoring Workloads to Google Cloud":"https://youtu.be/HCFa1kV1VnY"
 }
