@@ -25,6 +25,6 @@
   "Google Skills Arcade Trivia January 2026 Week 3":"https://youtu.be/GAtamyhLw9o",
   "Create a Virtual Machine":"https://youtu.be/qriedJZcz-0",
   "Getting Started with Cloud Shell and gcloud":"https://youtu.be/yBb0CAhR58s",
-  "Creating a Persistent Disk":"https://youtu.be/24d1R7Na79E",
-  "Arcade February 2026 Sprint 1":{"video": "https://youtu.be/example","github": "https://github.com/example"}
+  "Creating a Persistent Disk":{"video":"https://youtu.be/24d1R7Na79E","github":"https://github.com/techloop-tamil/Arcade_lab_solution/blob/main/Creating%20a%20Persistent%20Disk/GSP004.md"},
+  "Arcade February 2026 Sprint 1":{"video": "https://youtu.be/QOayumPsg3g"}
 }
