@@ -1,104 +1,70 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Lab Resources</title>
+  <meta charset="UTF-8">
+  <title>Techloop Tamil</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+    }
 
-<style>
+    nav {
+      background: #202124;
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
 
-body{
-  margin:0;
-  font-family:Arial;
-  background:#202124;
-  color:white;
-}
+    nav .logo {
+      color: #fff;
+      font-weight: bold;
+      font-size: 18px;
+    }
 
-.container{
-  padding:16px;
-}
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 16px;
+      font-size: 14px;
+    }
 
-.buttons{
-  display:flex;
-  gap:8px;
-  flex-wrap:wrap;
-}
+    nav a:hover {
+      text-decoration: underline;
+    }
 
-button,a{
-  border:none;
-  padding:8px 12px;
-  border-radius:6px;
-  cursor:pointer;
-  text-decoration:none;
-  font-size:13px;
-}
-
-.video{ background:#1a73e8; color:white; }
-.github{ background:#24292e; color:white; }
-.subscribe{ background:#ff0000; color:white; }
-.coffee{ background:#ffdd00; color:black; }
-
-</style>
-
+    .content {
+      padding: 40px 20px;
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
 
-<div class="container">
+  <!-- NAVBAR -->
+  <nav>
+    <div class="logo">Techloop Tamil</div>
+    <div>
+      <a href="index.html">Home</a>
+      <a href="upi.html">Buy Me a Coffee ☕</a>
+      <a href="https://www.youtube.com/@Techloop_Tamil" target="_blank">YouTube</a>
+    </div>
+  </nav>
 
-<div id="labTitle"></div>
-
-<div class="buttons" id="buttons"></div>
-
-</div>
-
-<script>
-
-const params =
-  new URLSearchParams(window.location.search);
-
-const lab =
-  params.get("lab");
-
-const video =
-  params.get("video");
-
-const github =
-  params.get("github");
-
-document.getElementById("labTitle").innerHTML =
-  `<b>${lab}</b>`;
-
-const btnContainer =
-  document.getElementById("buttons");
-
-if(video){
-
-btnContainer.innerHTML +=
-`<button class="video"
-onclick="window.open('${video}')">
-Watch Video
-</button>`;
-}
-
-if(github){
-
-btnContainer.innerHTML +=
-`<button class="github"
-onclick="window.open('${github}')">
-GitHub Code
-</button>`;
-}
-
-btnContainer.innerHTML +=
-`<a class="subscribe"
-href="https://www.youtube.com/@Techloop_Tamil"
-target="_blank">Subscribe</a>`;
-
-btnContainer.innerHTML +=
-`<a class="coffee"
-href="https://adhi2k.github.io/Extention_Videomap/upi.html"
-target="_blank">Buy Coffee</a>`;
-
-</script>
+  <!-- CONTENT -->
+  <div class="content">
+    <h2>Welcome 👋</h2>
+    <h3>
+      Created by
+      <a href="https://www.linkedin.com/in/adhithya-k-3a6653295/"
+         target="_blank">Adhithya</a>
+    </h3>
+    <p>
+      This page supports the Techloop Tamil Chrome Extension and video solutions.
+    </p>
+  </div>
 
 </body>
 </html>
