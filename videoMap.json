@@ -32,7 +32,7 @@
   "Cloud CDN": {"video": "","github": "https://github.com/techloop-tamil/Arcade_lab_solution/blob/main/Cloud%20CDN/GSP217.md"},
   "Arcade February 2026 Sprint 2": {"video": "","github": ""},
   "Creating Cross-region Load Balancing": {"video": "","github": "https://github.com/techloop-tamil/Arcade_lab_solution/blob/main/Creating%20Cross-region%20Load%20Balancing/GSP157.md"},
-"Orchestrating the Cloud with Kubernetes": {"video": "","github": "https://github.com/techloop-tamil/Arcade_lab_solution/blob/main/Orchestrating%20the%20Cloud%20with%20Kubernetes/GSP021.md"},
-"Running a Containerized App on Google Kubernetes Engine": {"video": "","github": ""},
-"Arcade February 2026 Sprint 3": {"video": "","github": ""}
+  "Orchestrating the Cloud with Kubernetes": {"video": "","github": "https://github.com/techloop-tamil/Arcade_lab_solution/blob/main/Orchestrating%20the%20Cloud%20with%20Kubernetes/GSP021.md"},
+  "Running a Containerized App on Google Kubernetes Engine": {"video": "","github": ""},
+  "Arcade February 2026 Sprint 3": {"video": "","github": ""}
 }
